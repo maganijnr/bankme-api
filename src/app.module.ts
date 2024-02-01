@@ -9,7 +9,7 @@ import { UserModule } from './user/user.module';
   imports: [
     //Configure environment variables access
     ConfigModule.forRoot({
-      envFilePath: '.env.local',
+      envFilePath: '.env.development',
       isGlobal:true
     }),
     //Configure Mongoose
